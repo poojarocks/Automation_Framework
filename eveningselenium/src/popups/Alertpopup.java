@@ -13,8 +13,8 @@ public class Alertpopup {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		 driver.findElement(By.name("cusid")).sendKeys("admin");
-			Thread.sleep(2000);
-		driver.findElement(By.name("submit")).click();
+			//Thread.sleep(2000);
+		//driver.findElement(By.name("submit")).click();
 		Thread.sleep(2000);
 		Alert a=driver.switchTo().alert();
 		String t=a.getText();

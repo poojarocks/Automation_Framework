@@ -9,10 +9,10 @@ public class cssfacebook {
 		System.setProperty("webdriver.chrome.driver", "./Softwares/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com");
-		Thread.sleep(2000);
-		driver.findElement(By.cssSelector("input[id='email']")).sendKeys("admin");
-		driver.findElement(By.cssSelector("input[id='pass']")).sendKeys("admin");
-		driver.findElement(By.cssSelector ("button[name='login']")).click();
+		//Thread.sleep(2000);
+		//driver.findElement(By.cssSelector("input[id='email']")).sendKeys("admin");
+		//driver.findElement(By.cssSelector("input[id='pass']")).sendKeys("admin");
+		//driver.findElement(By.cssSelector ("button[name='login']")).click();
 
 }
 }

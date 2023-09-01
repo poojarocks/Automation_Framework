@@ -19,8 +19,8 @@ public class childbrowserpopups {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.selenium.dev/");
 		driver.manage().window().maximize();
-		Thread.sleep(2000);
-		WebElement ele = driver.findElement(By.xpath("//span[text()='Downloads']"));
+		//Thread.sleep(2000);
+		//WebElement ele = driver.findElement(By.xpath("//span[text()='Downloads']"));
 		WebElement ele1 = driver.findElement(By.xpath("//span[text()='Documentation']"));
 		WebElement ele2 = driver.findElement(By.xpath("//span[text()='Projects']"));
 		WebElement ele3 = driver.findElement(By.xpath("//span[text()='Support']"));

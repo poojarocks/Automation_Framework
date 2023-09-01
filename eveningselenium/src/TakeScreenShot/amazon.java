@@ -23,9 +23,9 @@ public class amazon {
 			Thread.sleep(1000);
 			
 		}
-		WebElement ele=driver.findElement(By.xpath("//a[text()='Instagram']"));
-		Point locn=ele.getLocation();
-		Thread.sleep(2000);
+		//WebElement ele=driver.findElement(By.xpath("//a[text()='Instagram']"));
+		//Point locn=ele.getLocation();
+		//Thread.sleep(2000);
 		System.out.println(locn);
 		int x=locn.getX();
 		System.out.println(x);
